@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Windows\Capsium.Windows.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Libraries_and_Frameworks\Graphics.MicroGraphics\Driver\Graphics.MicroGraphics.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.WinForms\Driver\Displays.WinForms.csproj" />
+  </ItemGroup>
+
+</Project>
