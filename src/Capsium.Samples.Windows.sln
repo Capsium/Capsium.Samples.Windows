@@ -15,47 +15,55 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capsium.Windows", "..\..\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICs.IOExpanders.Ft232h", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\ICs.IOExpanders.Ft232h\Driver\ICs.IOExpanders.Ft232h.csproj", "{9DEA2B0D-ED3A-4AA2-B93F-99214B8A5673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blinky", "Blinky\Blinky.csproj", "{BDA9CB48-73CA-437F-9485-FA48322BE8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blinky", "Blinky\Blinky.csproj", "{BDA9CB48-73CA-437F-9485-FA48322BE8F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterDisplaySample", "CharacterDisplaySample\CharacterDisplaySample.csproj", "{20C0FC68-0430-47EA-8D33-A720B729D0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterDisplaySample", "CharacterDisplaySample\CharacterDisplaySample.csproj", "{20C0FC68-0430-47EA-8D33-A720B729D0CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.Lcd.CharacterDisplay", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.Lcd.CharacterDisplay\Driver\Displays.Lcd.CharacterDisplay.csproj", "{B667AE66-307C-4C62-BFF1-DB26D9A070BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalOutputPort", "DigitalOutputPort\DigitalOutputPort.csproj", "{E63784D7-A160-4814-A317-610A66EC7B54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalOutputPort", "DigitalOutputPort\DigitalOutputPort.csproj", "{E63784D7-A160-4814-A317-610A66EC7B54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Motion.Mpu6050", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Motion.Mpu6050\Driver\Sensors.Motion.Mpu6050.csproj", "{83D97B08-E214-4DA9-9D01-04231E36938C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Motion.Bno055", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Motion.Bno055\Driver\Sensors.Motion.Bno055.csproj", "{DE7EDBFC-B079-4B7C-9A52-29E327C1A93D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I2C", "I2C\I2C.csproj", "{46864DDC-F67F-49B0-8216-D301F80372BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I2C", "I2C\I2C.csproj", "{46864DDC-F67F-49B0-8216-D301F80372BF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Hid.Keyboard", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Hid.Keyboard\Driver\Sensors.Hid.Keyboard.csproj", "{334C7347-74F4-4E23-B382-EAC0DE925F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard", "Keyboard\Keyboard.csproj", "{7D38C7AD-AED0-46BD-A393-70B4A69FB0B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keyboard", "Keyboard\Keyboard.csproj", "{7D38C7AD-AED0-46BD-A393-70B4A69FB0B2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.Max7219", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.Max7219\Driver\Displays.Max7219.csproj", "{221F3CF3-5B90-4156-A7D5-EC235B651B65}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphics.MicroGraphics", "..\..\Capsium.Foundation\src\Capsium.Foundation.Libraries_and_Frameworks\Graphics.MicroGraphics\Driver\Graphics.MicroGraphics.csproj", "{AD61EFA4-0FFF-4739-AC0E-C249C2558871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max7219Sample", "Max7219Sample\Max7219Sample.csproj", "{54421584-1663-497D-BD65-6D544FEE0AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max7219Sample", "Max7219Sample\Max7219Sample.csproj", "{54421584-1663-497D-BD65-6D544FEE0AF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPort", "SerialPort\SerialPort.csproj", "{6A9A5F2F-3648-474E-87B0-504FE8F11185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPort", "SerialPort\SerialPort.csproj", "{6A9A5F2F-3648-474E-87B0-504FE8F11185}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.TftSpi", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.TftSpi\Driver\Displays.TftSpi.csproj", "{7BE162A2-C846-40D4-883A-4AE76179AC7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPI", "SPI\SPI.csproj", "{30D26937-E62C-4385-866C-DDC92B176B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPI", "SPI\SPI.csproj", "{30D26937-E62C-4385-866C-DDC92B176B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkBasics", "NetworkBasics\NetworkBasics.csproj", "{220D821D-9C23-4D08-A75F-3197F48A1A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkBasics", "NetworkBasics\NetworkBasics.csproj", "{220D821D-9C23-4D08-A75F-3197F48A1A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WifiWeather", "WifiWeather\WifiWeather.csproj", "{7C1AA9C8-BDBA-4BDE-B7B6-8B231ED40B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WifiWeather", "WifiWeather\WifiWeather.csproj", "{7C1AA9C8-BDBA-4BDE-B7B6-8B231ED40B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsMeadow", "WinFormsMeadow\WinFormsMeadow.csproj", "{35FBA0B7-AB22-445E-A0E4-F4CEDBF9E4BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsMeadow", "WinFormsMeadow\WinFormsMeadow.csproj", "{35FBA0B7-AB22-445E-A0E4-F4CEDBF9E4BF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.WinForms", "..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.WinForms\Driver\Displays.WinForms.csproj", "{B4696A47-A0FB-4644-983C-6CE3AEE1F222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterTank", "WaterTank\WaterTank.csproj", "{99369D12-6DEF-49D0-A500-A5E7BC41D291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterTank", "WaterTank\WaterTank.csproj", "{99369D12-6DEF-49D0-A500-A5E7BC41D291}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capsium.Avalonia", "..\..\Capsium.Core\src\Capsium.Avalonia\Capsium.Avalonia.csproj", "{B745D875-E139-41D5-B504-1F42E105DC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiCapsium", "MauiCapsium\MauiCapsium.csproj", "{E486D320-77BE-4CB5-9A89-22781B1DA348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capsium.Maui", "..\..\Capsium.Core\src\Capsium.Maui\Capsium.Maui.csproj", "{752A6854-1005-471B-BE2F-A104126552F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphics.MicroLayout", "..\..\Capsium.Foundation\src\Capsium.Foundation.Libraries_and_Frameworks\Graphics.MicroLayout\Driver\Graphics.MicroLayout.csproj", "{E075672B-1B37-4716-87E8-BA3378F5DAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaCapsium", "AvaloniaCapsium\AvaloniaCapsium.csproj", "{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +163,24 @@ Global
 		{B745D875-E139-41D5-B504-1F42E105DC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B745D875-E139-41D5-B504-1F42E105DC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B745D875-E139-41D5-B504-1F42E105DC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E486D320-77BE-4CB5-9A89-22781B1DA348}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{752A6854-1005-471B-BE2F-A104126552F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752A6854-1005-471B-BE2F-A104126552F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752A6854-1005-471B-BE2F-A104126552F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752A6854-1005-471B-BE2F-A104126552F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E075672B-1B37-4716-87E8-BA3378F5DAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E075672B-1B37-4716-87E8-BA3378F5DAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E075672B-1B37-4716-87E8-BA3378F5DAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E075672B-1B37-4716-87E8-BA3378F5DAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +209,10 @@ Global
 		{B4696A47-A0FB-4644-983C-6CE3AEE1F222} = {7BAA62E8-3D46-4503-998F-874AF6561658}
 		{99369D12-6DEF-49D0-A500-A5E7BC41D291} = {1A2C8FE7-3586-44C9-996B-E681C4085804}
 		{B745D875-E139-41D5-B504-1F42E105DC54} = {7BAA62E8-3D46-4503-998F-874AF6561658}
+		{E486D320-77BE-4CB5-9A89-22781B1DA348} = {1A2C8FE7-3586-44C9-996B-E681C4085804}
+		{752A6854-1005-471B-BE2F-A104126552F1} = {7BAA62E8-3D46-4503-998F-874AF6561658}
+		{E075672B-1B37-4716-87E8-BA3378F5DAF8} = {7BAA62E8-3D46-4503-998F-874AF6561658}
+		{1BBDBC1F-69E1-48D7-A2D9-3FC7AA31AF4F} = {1A2C8FE7-3586-44C9-996B-E681C4085804}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82456E54-BD8A-4EA3-B36A-83D4384931D7}

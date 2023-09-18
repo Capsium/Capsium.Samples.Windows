@@ -1,4 +1,6 @@
-﻿using Capsium.Peripherals.Sensors;
+﻿
+
+using Capsium.Peripherals.Sensors;
 using Capsium.Units;
 using ReactiveUI;
 using System;
@@ -6,14 +8,15 @@ using WaterTank.Models;
 
 namespace WaterTank.ViewModels;
 
-public class MainWindowViewModel : ViewModelBase
+public class MainViewModel : ViewModelBase
 {
+   
     private IRangeFinder _rangeFinder;
 
     // TODO: set this to match hardware
     private Length _maxSensorLength = new Length(10, Length.UnitType.Centimeters);
 
-    public MainWindowViewModel()
+    public MainViewModel()
     {
         UseSimulator = true;
 

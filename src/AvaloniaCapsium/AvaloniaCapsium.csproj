@@ -1,19 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<BuiltInComInteropSupport>true</BuiltInComInteropSupport>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
-		<AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<AvaloniaResource Include="Assets\**" />
+		<AvaloniaXaml Remove="Models\**" />
+		<Compile Remove="Models\**" />
+		<EmbeddedResource Remove="Models\**" />
+		<None Remove="Models\**" />
+		<None Remove=".gitignore" />
+		<None Remove="Assets\meadow.png" />
 	</ItemGroup>
+
 	<ItemGroup>
-		<ProjectCapability Include="Avalonia" />		
+		<TrimmerRootDescriptor Include="Roots.xml" />
 	</ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Avalonia" Version="11.0.4" />
 		<PackageReference Include="Avalonia.Desktop" Version="11.0.4" />
@@ -24,8 +32,18 @@
 		<PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.4" />
 
 	</ItemGroup>
+
+
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Avalonia\Capsium.Avalonia.csproj" />
+		<ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Windows\Capsium.Windows.csproj" />
+		<ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.TftSpi\Driver\Displays.TftSpi.csproj" />
+		<ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\ICs.IOExpanders.Ft232h\Driver\ICs.IOExpanders.Ft232h.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="libmpsse.dll">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>
